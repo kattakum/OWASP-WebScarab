@@ -303,7 +303,7 @@ public class ConnectionHandler implements Runnable {
 				}
 
 				keepAlive = response.getHeader("Connection");
-				System.out.println("Connection Handler KeepAlive:"+keepAlive);
+//				System.out.println("Connection Handler KeepAlive:"+keepAlive);
 				
 				version = response.getVersion();
 
